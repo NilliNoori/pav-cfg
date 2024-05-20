@@ -1,0 +1,15 @@
+S -> NP VP
+NP -> DT NN | DT JJ NN | NN | JJ NN | NNP | NNS | PRP
+VP -> VB | VB NP | VB PP | VB S
+PP -> IN NP
+DT -> 'the' | 'a' | 'an' | 'some'
+NN -> 'cat' | 'dog' | 'man' | 'woman' | 'house' | 'car' | 'stepmother' | 'stepsisters' | 'prince' | 'ball' | 'dress' | 'slipper' | 'fairy'
+JJ -> 'big' | 'small' | 'happy' | 'sad' | 'beautiful' | 'kind' | 'mean'
+VB -> 'sees' | 'likes' | 'hates' | 'runs' | 'jumps' | 'finds' | 'helps' | 'meets' | 'loses' | 'dances' | 'wears' | 'attends' | 'invites' | 'arrives at' | 'leaves'
+IN -> 'in' | 'on' | 'under' | 'over' | 'with' | 'at' | 'to'
+NNP -> 'Cinderella' | 'Ella' | 'Prince Charming'
+NNS -> 'cats' | 'dogs' | 'men' | 'women' | 'stepsisters'
+PRP -> 'she' | 'he'
+S -> NP VP
+NP -> 'Cinderella' | 'Ella' | 'Prince Charming' | 'the prince' | 'the stepmother' | 'the stepsisters' | 'the fairy godmother'
+VP -> 'meets the prince' | 'attends the ball' | 'loses her slipper' | 'wears a beautiful dress' | 'is helped by the fairy godmother' | 'dances with the prince' | 'leaves before midnight' | 'is found by Prince Charming' | 'is invited to the ball' | 'arrives at the ball'
